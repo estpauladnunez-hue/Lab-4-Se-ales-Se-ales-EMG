@@ -53,7 +53,9 @@ En una señal EMG, el RMS refleja el nivel de activación muscular, ya que aumen
 Sin embargo, durante la fatiga, puede observarse una disminución del RMS si el músculo pierde capacidad contráctil o una tendencia al aumento temporal cuando se intenta compensar la pérdida de fuerza.
 
 Matemáticamente se define como:
+
                                    <img width="166" height="74" alt="image" src="https://github.com/user-attachments/assets/f9e239d7-736d-4e6b-a3f7-f81191f6a59e" />
+                                   
 donde 𝑥𝑖 son las muestras de la señal y 𝑁 es el número total de muestras del segmento analizado.
 
 ## 4. Análisis en el Dominio de la Frecuencia – Transformada Rápida de Fourier (FFT):
@@ -62,11 +64,15 @@ Para observar los componentes espectrales de la señal EMG se aplica la Transfor
 Esto permite analizar cómo se distribuye la energía de la señal en diferentes frecuencias.
 
 La FFT se define como:
+
                                 <img width="191" height="61" alt="image" src="https://github.com/user-attachments/assets/1e0a5afe-26cb-4a0a-8455-9ecd3075cbcf" />
+                                
 A partir del espectro obtenido, se calculan indicadores relevantes como:
 
 Frecuencia media (𝑓𝑚𝑒𝑎𝑛): promedio ponderado de las frecuencias.
+
                                <img width="148" height="54" alt="image" src="https://github.com/user-attachments/assets/d09e1552-09ec-4a31-be49-338873d55c24" />
+                               
 Frecuencia mediana (𝑓𝑚𝑒𝑑𝑖𝑎𝑛): frecuencia que divide el espectro en dos partes con igual energía.
 
 Durante la fatiga muscular, ambas frecuencias tienden a disminuir, indicando un desplazamiento del espectro hacia bajas frecuencias debido al enlentecimiento de la conducción eléctrica muscular.
