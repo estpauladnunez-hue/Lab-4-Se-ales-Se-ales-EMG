@@ -1,4 +1,4 @@
-# Lab-4-Se-ales-Se-ales-EMG
+# Lab-4-Se-ales-Fatiga Muscular
 ## INTRODUCCION.
 
 El presente laboratorio tiene como objetivo el análisis de señales electromiográficas (EMG) asociadas a la fatiga muscular, empleando señales reales adquiridas mediante un sistema DAQ.
